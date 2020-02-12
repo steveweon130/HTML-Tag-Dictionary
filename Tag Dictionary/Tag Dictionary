@@ -1,0 +1,374 @@
+HTML Tag Dictionary
+
+
+# 
+
+
+	<!---->
+	Function:
+		defines a comment
+		The comment is not shown in the website.
+	Encoding Formula:	
+	<!--(Comments)-->
+
+
+	<!DOCTYPE>
+	Function:
+		defines the document type.
+		very first thing in your HTML document, before the <html> tag.
+		<!DOCTYPE> declaration is not an HTML tag.
+		It is an instruction to the web browser about what version of HTML the page is written in.
+	Encoding Formula:
+		<!DOCTYPE>
+
+
+A
+
+
+	<a>
+	Function:
+		defines a hyperlink
+		used to link from one page to another
+	Attributes:
+		href attribute is used to indicate the link's destination.
+	Encoding Formula: </h4>
+		<a href="(Website URL)">(Click button)</a>
+
+
+B
+
+
+	<b>
+	Function:
+		defines bold text
+		specifies bold text without any extra importance
+	Encoding Formula:
+		<b>(Bolded Contents)</b>
+
+
+	<body>
+	Function:
+		defines the document's body.
+		contains the cotents of the webpage such as text, hyperlinks, images, tables, lists, etc.
+	Encoding Formula:
+		<body>(Contents)</body>
+
+
+	<br>
+	Functions:
+		inserts single line break
+		is a empty tag: no end tag
+	Encoding Formula:
+		Line #1<br>Line #2
+		
+		
+C
+
+
+D
+	<div>
+	Function:
+		defines a division or a section in an HTML document.
+		often used as a container for other HTML elements to style them with CSS
+	Encoding Formula:
+		<div>Divided Contents</div>
+
+E
+
+
+F
+
+
+G
+
+
+H
+
+
+	<h1~6>
+	Function:
+		defines HTML heading
+		<h1> defines the most important heading. <h6> defines the least important heading.
+	Attribute:
+		align attribute specifies the alignment of a heading.
+			"center" value center-aligns the heading.
+			"left" value left-aligns the heading. 
+			"right" value right-aligns the heading.
+			"justify" value makes the heading is justified to both margins.
+	Encoding Formula:
+		<h1>Heading #1</h1>
+		<h2>Heading #2</h2>
+		<h3>Heading #3</h3>
+		<h4>Heading #4</h4>
+		<h5>Heading #5</h5>
+		<h6>Heading #6</h6>
+
+
+	<head>
+	Function:
+		defines information about the document
+		can include a title for the document, scripts, styles, meta information, and more.
+		The following tags can go inside the <head> tag:
+			<title>
+			<style>
+			<base>
+			<link>
+			<meta>
+			<script>
+			<noscript>
+		The <head> tag must be written above the <body> tag.
+	Encoding Formula:
+		<head>(Contents)</head>
+
+
+	<html>
+	Function:
+		defines the root of an HTML document
+		tells browsers where tthe HTML code starts and ends.
+		The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
+	Encoding Formula:
+		<html>(Codes)</html>
+
+
+I
+
+
+	<img>
+	Function:
+		defines an image
+	Attributes:
+		src attribute specifies the URL for an image.
+		alt attribute specifies an alternative text for an image, when the image cannot be displayed.
+		height attribute specifies the height of the image.
+		width attribute specifies the width of the image.
+		*The image would be inserted by its actual size if height attribute and width attribute are not defined.
+	Encoding Formula:
+		<img src="(Image Name.[Image Type])" alt="(Image Name.[Image Type])" height="(Specific Image Height in Pixels)" width="(Specific Image Width in Pixels)">
+
+
+J
+
+
+K
+
+
+L
+
+
+	<li>
+	Function:
+		defines a list item used in ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>).
+	Encoding Formula:
+		<ol>Start of the Ordered List
+			<li>Item #1</li>
+			<li>Item #2</li>
+			<li>Item #3</li>
+		End of the Ordered List </ol>
+		<ul>Start of the Unordered List
+			<li>Item #1</li>
+			<li>Item #2</li>
+			<li>Item #3</li>
+		End of the Unordered List </ul>
+
+
+M
+
+
+N
+
+
+O
+
+
+	<ol>
+	Function:
+		defines an ordered list
+		An ordered list can be numerical or alphabetical.
+		uses the <li> tag to list items.
+	Attributes:
+		reversed attribute is used to specify descending order.
+			Ex. 9,8,7,6,5...
+		start attribute can be used to specify the start value of an ordered list.
+		type attribute can be used to specify the kind of marker to use in the list.
+			"1" value specifies decimal numbers 
+				Ex. 1, 2, 3, 4
+				It is Default
+			"a" value specidies alphabetically ordered list in lowercase.
+				Ex. a, b, c, d
+			"A" value specidies alphabetically ordered list in upercase.
+				Ex. A, B, C, D
+			"i" value specifies Roman numbers in lowercase.
+				Ex. i, ii, iii, iv
+			"I"	value specifies Roman numbers in uppercase.
+				Ex. I, II, III, IV
+	Encoding Formula:
+		<ol> Start of the Ordered List
+			<li>Item #1</li>
+			<li>Item #2</li>
+			<li>Item #3</li>
+		</ol> End of the Ordered List
+
+P
+
+
+	<p>
+	Function:
+		defines a paragraph
+		adds some space (margin) before and after each element.
+	Encoding Formula:
+		<p>Paragraph #1</p>
+		<p>Paragraph #2</p>
+
+
+Q
+
+
+
+R
+
+
+
+S
+
+
+	<style>
+	Function:
+		defines style information for a document.
+		placed in the <head> tag.
+		used to specify how HTML elements should render in a browser.
+			CSS informations are written here.
+	Encoding Formula:
+		<head>
+		<style>
+		(Tag Name) {
+			(Attribute Name): (Value);
+		{
+		</style>
+		</head>
+
+
+T
+
+	<table>
+	Function:
+		defines an HTML table
+		consists of one or more <tr>, <th>, and <td> elements.
+	Attributes:
+		align attribute can be used to specify the alignment of a table according to surrounding text.
+		bgcolor attribute can be used to specify the background color for a table.
+		border attribute can be used to specify whether or not the table is being used for layout purposes.
+		width attribute can be used to specify the width of a table.
+	Encoding Formula:
+		<table>
+			<tr>
+				<th>Column Heading #1</th>
+				<th>Column Heading #2</th>
+				<th>Column Heading #3</th>
+			</tr>
+			<tr>
+				<td>Data in Cell 1-1</td>
+				<td>Data in Cell 2-1</td>
+				<td>Data in Cell 3-1</td>
+			</tr>
+			<tr>
+				<td>Data in Cell 1-2</td>
+				<td>Data in Cell 2-2</td>
+				<td>Data in Cell 3-2</td>
+			</tr>
+		</table>
+
+
+	<td>
+	Functions:
+		defines a standard cell in an HTML table that contains data.
+		regular and left-aligned by default
+	Attributes:
+		align attribute can be used to specify the alignment the content in the cell.
+		bgcolor attribute can be used to specify the background color of a cell.
+		height attribute can be used to specify the height of a cell.
+		width attribute can be used to specify the width of a cell.
+	Encoding Formula:
+		<table>
+			<tr>
+				<th>Column Heading #1</th>
+				<th>Column Heading #2</th>
+				<th>Column Heading #3</th>
+			</tr>
+			<tr>
+				<td>Data in Cell 1-1</td>
+				<td>Data in Cell 2-1</td>
+				<td>Data in Cell 3-1</td>
+			</tr>
+			<tr>
+				<td>Data in Cell 1-2</td>
+				<td>Data in Cell 2-2</td>
+				<td>Data in Cell 3-2</td>
+			</tr>
+		</table>
+		
+		
+	<th>
+	Function:
+		defines a header cell in an HTML table that contains header information.
+		bold and centered by default
+	Attributes:
+		align attribute can be used to specify the alignment the content in the header cell.
+		bgcolor attribute can be used to specify the background color of a header cell.
+		height attribute can be used to specify the height of a header cell.
+		width attribute can be used to specify the width of a header cell.
+	Encoding Formula:
+		<table>
+			<tr>
+				<th>Column Heading #1</th>
+				<th>Column Heading #2</th>
+				<th>Column Heading #3</th>
+			</tr>
+			<tr>
+				<td>Data in Cell 1-1</td>
+				<td>Data in Cell 2-1</td>
+				<td>Data in Cell 3-1</td>
+			</tr>
+			<tr>
+				<td>Data in Cell 1-2</td>
+				<td>Data in Cell 2-2</td>
+				<td>Data in Cell 3-2</td>
+			</tr>
+		</table>
+		
+		
+U
+
+
+V
+
+
+	<video>
+	Function:
+		defines a video, movie, or other video streams
+		supports only ".mp4", ".ogg", ".webm" file types.
+		The videos which are directly brought from the Internet are only supported byChrome, Internet Explorer(Edge), FireFox, Safari, and Opera browsers.
+			not supported in Internet Explorer 8 and earlier versions, versions belowOpera 25, and any other browsers.
+		Embed files of online videos are copied here
+	Attributes:
+		src attribute is required for specifing the URL of the video file.
+		height atribute can be used to set the height of the video player.
+		width attribute can be used to set the width of the video player.
+	Encoding Formula:
+		<video src="(Video Name).(Video Type)"></video>
+
+
+W
+
+
+X
+
+
+Y
+
+
+Z
+
+
+Reference
+https://www.w3schools.com/tags/
+
